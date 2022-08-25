@@ -1,0 +1,701 @@
+
+
+
+@media screen and (min-width: 1300px) {
+    .custom-paralax .paralax-image { 
+        top: -25%;}
+  }
+
+
+@media (max-width: 992px) {
+
+    html {}
+
+    body {}
+
+    p {
+        font-size: 12px;
+        line-height: inherit;
+    }
+
+    .lead {
+        font-size: 12px;
+        line-height: inherit;
+    }
+
+    .btn {
+        padding: 0.3rem 2rem;
+        font-size: 12px;
+    }
+
+    .center-in-mobile {
+        text-align: left;
+    }
+
+
+    .mobile-mb-0{ margin-bottom:0px !important;}
+    .mobile-pb0 {
+       padding-bottom:0px !important;
+    }
+
+    .mobile-pt0 {
+        padding-top:0px  !important;
+     }
+
+
+     .scroll-top {
+        width: 40px;
+        height: 40px;
+        line-height: 40px; 
+        right: 10px;
+        font-size: 20px; }
+ 
+    .tag-cloud>a:hover,
+    .post-tags>a:hover {}
+
+    .topbar-text.call-us-number.font-small.font-weight-normal.text-lg-right {}
+
+    .topbar-text.call-us-number.font-small.font-weight-normal.text-lg-right a {}
+
+    .topbar-text.call-us-number.font-small.font-weight-normal.text-lg-right a:hover,
+    .topbar-text.call-us-number.font-small.font-weight-normal.text-lg-right a:focus {}
+
+    div#header-top-bar {}
+
+
+
+    .navbar {
+        padding-top: 44px;
+    }
+
+    .navbar-brand img {
+        width: 170px;
+        padding-top: 8px;
+    }
+    .navbar-collapse .collapse-brand img {
+    height: auto;
+    width: 170px;
+}
+    .dropdown-menu { 
+        color: #ffffff; 
+        background-color: transparent;}
+        .dropdown-menu .dropdown-item {
+            color: #fff;}
+
+    /* Header Slider triangle */
+
+    .hero-slider-content {}
+    
+
+
+    .mobile-section-header { 
+        padding-top: 5rem !important;
+        padding-bottom: 2rem !important;
+    }
+
+    /* Custom Services */
+
+    .custom-services .mb-5{margin-bottom: 0rem !important;}
+
+    .custom-services .icon-box {}
+
+    .custom-services .icon-box .card-icon {
+        margin-bottom: 10px !important;
+    }
+
+    .custom-services .icon-box .card-icon img {
+        width: 70px;
+        max-width: 100%;
+    }
+
+    .custom-services .icon-box h2 {
+        margin-bottom: 5px;
+        min-height: auto;
+    }
+
+    .custom-services .icon-box p {
+        min-height: 140px;
+        max-height: 140px;
+        overflow: scroll;
+    }
+
+    .custom-services.homepage-services .icon-box h2 {min-height: 52px;}
+    .custom-services.homepage-services .icon-box p { }
+  
+    
+
+    .custom-services .icon-box .btn {
+        margin-top: 20px;
+    }
+
+
+    /* Custom Button */
+
+    .btn-outline-secondary {}
+
+    .btn-outline-secondary:hover {}
+
+    .btn-outline-secondary:focus,
+    .btn-outline-secondary.focus {}
+
+    .btn-outline-secondary-dark {}
+
+    .btn-outline-secondary-dark:hover,
+    .btn-outline-secondary-dark:focus {}
+
+
+    /* Custom paralax */
+
+    .custom-paralax {}
+
+    .custom-paralax .paralax-image {
+        position: absolute;
+        /* margin: 0px auto; */
+        /* text-align: center; */
+        /* display: block; */
+        left: -5%;
+        top: -40px;
+        width: 50%;
+    }
+
+    .custom-paralax.left-image {
+        margin-top: 2rem;
+        margin-bottom: 0rem;
+        /* text-align: center; */
+        padding-top: 5rem;
+    }
+    .custom-paralax.right-image .paralax-image{
+    right: -5%;
+    left: auto;
+    top: -11%;
+}
+
+    .custom-paralax.left-image .paralax-image {}
+
+    .page-5 {}
+
+    .page-5 .custom-paralax {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
+.page-5 .custom-paralax-holder {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+
+    /* Custom Team */
+
+    .custom-team-section {}
+
+    .custom-team-section .profile-card {}
+
+    .custom-team-section .profile-card .mt-4.mb-4 {
+        margin-top: 0px !important;
+    }
+
+    .custom-team-section .profile-card img {}
+
+    .custom-team-section .card-body {
+        padding: 0px 10px;
+    }
+
+    .custom-team-section .profile-card .card .card-body {}
+
+
+    .custom-team-section .owl-theme .owl-nav.disabled+.owl-dots {
+        margin-top: 0px;
+    }
+
+    /* Header with Rantangle */
+    
+
+    .custom-header-rantangle {
+        /* background: rgb(18, 40, 76); */
+        /* background: linear-gradient(180deg, rgba(18, 40, 76, 1) 0%, rgba(5, 59, 99, 1) 68%, rgba(16, 137, 166, 1) 100%); */
+    }
+
+    .custom-header-rantangle .section-header {
+        padding-bottom: 9rem !important;
+    }
+
+    .custom-header-rantangle .section-header .header-side-image {
+        max-width: 100%;
+        width: 69%;
+        opacity: 1;
+        right: -12%;
+        top: 25%;
+    }
+
+    .custom-header-rantangle .custom-header-extra {}
+
+
+    /* custom-footer-rantangle */
+
+    .custom-footer-rantangle {
+        background-size: 290%;
+        background-position: top;
+        padding-top: 3rem;
+        background: rgb(18, 40, 76);
+        background: linear-gradient(180deg, rgba(18, 40, 76, 1) 0%, rgba(5, 59, 99, 1) 34%, rgba(16, 137, 166, 1) 100%);
+    }
+
+
+    /* Custom Services Holder Blocks inneer page */
+
+    .custom-our-services {}
+
+    .custom-our-services-holder-block .services-image-holder {}
+
+    .custom-our-services .custom-our-services-holder-block h2 {
+    min-height: auto;
+}
+
+    .custom-our-services .custom-our-services-holder-block p {
+    min-height: auto;
+    max-height: inherit;
+    overflow: auto;
+}
+
+    .custom-our-services .custom-our-services-holder-block .btn {}
+
+    .contact-page .section-header .hero-slider-content ul li {
+    display: block;
+}
+
+    .contact-page .section-header .hero-slider-content ul li a {}
+
+    .contact-page .contact-body-form {
+    padding: 4rem 0px 6rem;
+}
+
+    .contact-page .form-group .form-control {
+    padding: 9px 23px;
+    font-size: 12px;
+    height: auto;
+    border: 1px solid;
+}
+
+    .contact-page .form-group {
+    margin-bottom: 11px;
+}
+
+    .contact-page .form-group textarea.form-control {
+    height: 90px;
+}
+
+    .contact-page .form-group p {}
+
+    .contact-page .form-group .terms-checkbox {}
+
+    .contact-page .form-group .terms-checkbox p {}
+
+
+    .contact-page .accordion-content {
+        width: 90%;
+        /* text-align: justify; */
+        padding-top: 10px;
+    }
+    .contact-page .accordion .card {}
+    .contact-page .accordion .card h5,
+    .contact-page .accordion .card .h5 {
+        font-size: 16px; 
+    }
+    
+
+    .contact-page .accordion-panel-header .icon i {}
+
+
+    /* Jobs page */
+
+    .jobs-section {}
+    .jobs-section .icon.icon-lg { 
+        /* display: none; */
+        width: 20px;
+        margin-right: 13px !important;
+    }
+    .jobs-section .icon.icon-lg i,
+    .jobs-section .icon.icon-lg svg {
+        font-size: 20px;
+    }
+
+
+    /* Simple page */
+
+    .simple-page {}
+
+
+    /* Cta Section */
+
+    .cta-section {}
+
+    .cta-section img {
+        width: 50%;
+        text-align: center;
+        display: block;
+        margin: 0px auto;
+    }
+
+    .cta-section {}
+
+
+
+/* Footer  */
+.footer .footer-brand img {
+    width: 160px;
+    height: auto;
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+.footer-logo-holder{}
+.footer-logo-holder h1{ width: 70%;}
+
+
+}
+@media (max-width: 767px) {
+
+    html {}
+
+    body {}
+
+    p {
+        font-size: 12px;
+        line-height: inherit;
+    }
+
+    .lead {
+        font-size: 12px;
+        line-height: inherit;
+    }
+
+    .btn {
+        padding: 0.3rem 2rem;
+        font-size: 12px;
+    }
+
+    .center-in-mobile {
+        text-align: center;
+    }
+
+
+    .mobile-mb-0{ margin-bottom:0px !important;}
+    .mobile-pb0 {
+       padding-bottom:0px !important;
+    }
+
+    .mobile-pt0 {
+        padding-top:0px  !important;
+     }
+
+
+     .scroll-top {
+        width: 40px;
+        height: 40px;
+        line-height: 40px; 
+        right: 10px;
+        font-size: 20px; }
+ 
+    .tag-cloud>a:hover,
+    .post-tags>a:hover {}
+
+    .topbar-text.call-us-number.font-small.font-weight-normal.text-lg-right {}
+
+    .topbar-text.call-us-number.font-small.font-weight-normal.text-lg-right a {}
+
+    .topbar-text.call-us-number.font-small.font-weight-normal.text-lg-right a:hover,
+    .topbar-text.call-us-number.font-small.font-weight-normal.text-lg-right a:focus {}
+
+    div#header-top-bar {}
+
+
+
+    .navbar {
+        padding-top: 44px;
+    }
+
+    .navbar-brand img {
+        width: 110px;
+        padding-top: 8px;
+    }
+    .navbar-collapse .collapse-brand img {
+ 
+    width: 117px;
+}
+    .dropdown-menu { 
+        color: #ffffff; 
+        background-color: transparent;}
+        .dropdown-menu .dropdown-item {
+            color: #fff;}
+
+    /* Header Slider triangle */
+
+    .hero-slider-content {}
+    
+
+
+    .mobile-section-header { 
+        padding-top: 5rem !important;
+        padding-bottom: 2rem !important;
+    }
+
+    /* Custom Services */
+
+
+    .custom-services .mb-5{  margin-bottom: 2rem !important; }
+
+    .custom-services .icon-box {}
+
+    .custom-services .icon-box .card-icon {
+        margin-bottom: 10px !important;
+    }
+
+    .custom-services .icon-box .card-icon img {
+        width: 70px;
+        max-width: 100%;
+    }
+
+    .custom-services .icon-box h2 {
+        margin-bottom: 5px;
+    }
+
+    .custom-services .icon-box p {
+        min-height: auto;
+        max-height: inherit;
+        overflow: scroll;
+    }
+
+    
+    .custom-services.homepage-services .icon-box h2 {min-height: auto;}
+    .custom-services.homepage-services .icon-box p { }
+  
+
+    .custom-services .icon-box .btn {
+        margin-top: 20px;
+    }
+
+
+    /* Custom Button */
+
+    .btn-outline-secondary {}
+
+    .btn-outline-secondary:hover {}
+
+    .btn-outline-secondary:focus,
+    .btn-outline-secondary.focus {}
+
+    .btn-outline-secondary-dark {}
+
+    .btn-outline-secondary-dark:hover,
+    .btn-outline-secondary-dark:focus {}
+
+
+    /* Custom paralax */
+
+    .custom-paralax {}
+
+    .custom-paralax .paralax-image {
+        position: inherit;
+        margin: 0px auto;
+        text-align: center;
+        display: block;
+        left: auto;
+        top: -50px;
+        width: 80%;
+    }
+
+    .custom-paralax.left-image {
+        margin-top: 2rem;
+        margin-bottom: 0rem;
+        text-align: center;
+        padding-top: 0px;
+    }
+    .custom-paralax.right-image .paralax-image{
+    right: auto;
+    left: auto;
+    padding-bottom: 10px;
+    top: -30px;
+    width: 80%;
+}
+
+    .custom-paralax.left-image .paralax-image {}
+
+    .page-5 {}
+
+    .page-5 .custom-paralax {
+    padding-top: 0rem;
+    padding-bottom: 2rem;
+}
+.page-5 .custom-paralax-holder {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+
+    /* Custom Team */
+
+    .custom-team-section {}
+
+    .custom-team-section .profile-card {}
+
+    .custom-team-section .profile-card .mt-4.mb-4 {
+        margin-top: 0px !important;
+    }
+
+    .custom-team-section .profile-card img {}
+
+    .custom-team-section .card-body {
+        padding: 0px 10px;
+    }
+
+    .custom-team-section .profile-card .card .card-body {}
+
+
+    .custom-team-section .owl-theme .owl-nav.disabled+.owl-dots {
+        margin-top: 0px;
+    }
+
+    /* Header with Rantangle */
+    
+
+    .custom-header-rantangle {
+        background: rgb(18, 40, 76);
+        background: linear-gradient(180deg, rgba(18, 40, 76, 1) 0%, rgba(5, 59, 99, 1) 68%, rgba(16, 137, 166, 1) 100%);
+    }
+
+    .custom-header-rantangle .section-header {
+        padding-bottom: 4rem !important;
+    }
+
+    .custom-header-rantangle .section-header .header-side-image {
+        max-width: 200%;
+        width: 150%;
+        opacity: 0.5;
+        right: -40%;
+        top: 15%;
+    }
+
+    .custom-header-rantangle .custom-header-extra {}
+
+
+    /* custom-footer-rantangle */
+
+    .custom-footer-rantangle {
+        background-size: 290%;
+        background-position: top;
+        padding-top: 3rem;
+        background: rgb(18, 40, 76);
+        background: linear-gradient(180deg, rgba(18, 40, 76, 1) 0%, rgba(5, 59, 99, 1) 34%, rgba(16, 137, 166, 1) 100%);
+    }
+
+
+    /* Custom Services Holder Blocks inneer page */
+
+    .custom-our-services {}
+
+    .custom-our-services-holder-block .services-image-holder {}
+
+    .custom-our-services .custom-our-services-holder-block h2 {
+    min-height: auto;
+}
+
+    .custom-our-services .custom-our-services-holder-block p {
+    min-height: auto;
+    max-height: inherit;
+    overflow: auto;
+}
+
+    .custom-our-services .custom-our-services-holder-block .btn {}
+
+    .contact-page .section-header .hero-slider-content ul li {
+    display: block;
+}
+
+    .contact-page .section-header .hero-slider-content ul li a {}
+
+    .contact-page .contact-body-form {
+    padding: 4rem 0px 6rem;
+}
+
+    .contact-page .form-group .form-control {
+    padding: 9px 23px;
+    font-size: 12px;
+    height: auto;
+    border: 1px solid;
+}
+
+    .contact-page .form-group {
+    margin-bottom: 11px;
+}
+
+    .contact-page .form-group textarea.form-control {
+    height: 90px;
+}
+
+    .contact-page .form-group p {}
+
+    .contact-page .form-group .terms-checkbox {}
+
+    .contact-page .form-group .terms-checkbox p {}
+
+
+    .contact-page .accordion-content {
+        width: 90%;
+        /* text-align: justify; */
+        padding-top: 10px;
+    }
+    .contact-page .accordion .card {}
+    .contact-page .accordion .card h5,
+    .contact-page .accordion .card .h5 {
+        font-size: 16px; 
+    }
+    
+
+    .contact-page .accordion-panel-header .icon i {}
+
+
+    /* Jobs page */
+
+    .jobs-section {}
+    .jobs-section .icon.icon-lg { 
+        /* display: none; */
+        width: 20px;
+        margin-right: 13px !important;
+    }
+    .jobs-section .icon.icon-lg i,
+    .jobs-section .icon.icon-lg svg {
+        font-size: 20px;
+    }
+
+
+    /* Simple page */
+
+    .simple-page {}
+
+
+    /* Cta Section */
+
+    .cta-section {}
+
+    .cta-section img {
+        width: 50%;
+        text-align: center;
+        display: block;
+        margin: 0px auto;
+    }
+
+    .cta-section {}
+
+
+
+/* Footer  */
+.footer .footer-brand img { 
+    width: 110px;
+    height: auto;
+    max-width: 100%;
+    margin-bottom: 30px;
+}
+.footer-logo-holder{}
+.footer-logo-holder h1{ width: 70%;}
+
+
+}
