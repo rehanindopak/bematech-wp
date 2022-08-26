@@ -26,61 +26,32 @@ $feature_image =  wp_get_attachment_url( get_post_thumbnail_id($post->ID) );
 
 
 
-<main>
 
-  <section class="heading-page" style=" padding: 0px 0px;">
-            <img src="<?php bloginfo('template_directory');?>/assets/images/portfolio-heading-bg.jpg" alt="">
-            <div class="container">
-                <div class="heading-page-content display-flex">
-                    <h1 class="au-page-title">404  | Page Not Found </h1>
-                    
+
+
+  <!--404 section start-->
+  <section class="section py-0 position-relative text-white"  >
+            <div class="section-lg bg-gradient-primary min-vh-100 d-flex align-items-center w-100">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-md-10 col-lg-8">
+                            <div class="error-content text-center">
+                                <div class="notfound-404">
+                                    <h1 class="display-1">404</h1>
+                                </div>
+                                <h2>Entschuldigung, etwas ist schief gelaufen</h2>
+                                <p class="lead">
+                                Die von Ihnen gesuchte Seite wurde möglicherweise entfernt, ihr Name wurde geändert oder sie ist vorübergehend
+                                    nicht verfügbar.
+                                </p>
+                                <a class="btn btn-outline-white mt-3" href="<?php echo home_url();?>">Zur Homepage gehen</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
-        
-     
-        
-        
-        <div class="single single-link-post custom-padding-top-bottom">
-            <div class="container">
-                <div class="single-content">
-                
-                 <div class="row">
-                  <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
-                     <h4 class="single-title">Sorry the Page you are loocking for is not Exists </h4>
-                    </div>
-                    </div>
-                
-                
-                    <div class="row">
-                    
-                    
-                    
-                    
-                        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
-                            <div class="post-single-content">
-                            
-							<br><br>
-                            <a href="<?php echo home_url();?>" class="simple-btn ">Back to Home</a>
-                    
-              
-                               
-                            </div>
-                        </div>
-                      
-                      
-                      
-                      
-                    </div>
-                </div>
-            </div>
-        </div>
-        
-      
-
-    </main>
-
-
+        <!--404 section end-->
       
 
   

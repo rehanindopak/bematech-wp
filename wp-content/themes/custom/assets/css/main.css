@@ -1918,7 +1918,7 @@ div#header-top-bar {
 }
 
 .custom-services .icon-box .btn {
-    margin-top: 60px;
+    margin-top: 40px;
 }
 
 
@@ -2165,6 +2165,7 @@ footer.footer-wrap {
 
 .contact-page .form-group textarea.form-control {
     border-radius: 20px;
+    height: 200px;
 }
 
 .contact-page .form-group p {}
@@ -2219,4 +2220,8 @@ footer.footer-wrap {
 .simple-page .section-header {
     padding-top: 11rem;
     padding-bottom: 5rem;
+}
+
+.wpcf7-list-item { 
+    margin: 0 0 0 0em !important;
 }
